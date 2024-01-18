@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<tittle>Student Administration</tittle>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+}
+nav button {
+margin: 5px;
+padding: 8px;
+font-size: 16px;
+cursor: pointer;
+border: none;
+background-color: #555;
+color: white;
+}
+form {
+max-width: 600px;
+margin: 20px auto;
+background-color: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form label {
+display: block;
+margin-bottom: 8px;
+}
+form input {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+form button {
+background-color: #4caf50;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Student Administration System</h1>
+</header>
+<nav>
+<button onclick="selectAcademicYear('2023-2024')">2023-2024</button>
+<button onclick="selectAcademicYear('2024-2025')">2024-2025</button>
+<button onclick="selectAcademicYear('2025-2026')">2025-2026</button>
+</nav>
+<h1 align="center"> WELCOME TO MY WEBPAGE </h1>
+<footer>
+&copy; 2024 Student Administration System
+</footer>
+<script>
+function selectAcademicYear(year) {
+alert("Academic Year Selection: " + year);
+}
+</script>
+</body>
+</html>
